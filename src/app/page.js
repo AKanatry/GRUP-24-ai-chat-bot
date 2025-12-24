@@ -285,3 +285,4 @@ const ChatBotDemo = () => {
   );
 };
 export default ChatBotDemo;
+// Frontend update: Added chat interface layout
