@@ -26,10 +26,7 @@ Bu proje, modern web teknolojileri ve büyük dil modelleri (LLM) kullanılarak 
 - **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
 - **Dil:** [TypeScript](https://www.typescriptlang.org/)
 - **Yapay Zeka:** [Vercel AI SDK](https://sdk.vercel.ai/docs) (OpenAI / Anthropic Provider)
-- **Veritabanı:** [PostgreSQL](https://www.postgresql.org/)<img width="1920" height="1080" alt="Desktop Screenshot 2025 12 24 - 04 51 43 12" src="https://github.com/user-attachments/assets/205cb0ba-2ed0-41b0-9547-36200b2d7c8c" />
-<img width="1920" height="1080" alt="Desktop Screenshot 2025 12 24 - 04 48 07 62" src="https://github.com/user-attachments/assets/dbe9414a-e121-4423-b9cf-f2da12270cc9" />
-<img width="1920" height="1080" alt="Desktop Screenshot 2025 12 24 - 04 47 57 41" src="https://github.com/user-attachments/assets/d166bd3d-8c34-4a35-9027-8b07961dd8b9" />
-
+- **Veritabanı:** [PostgreSQL](https://www.postgresql.org/)
 - **ORM:** [Prisma](https://www.prisma.io/)
 - **Stil:** [Tailwind CSS](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/)
 - **Kimlik Doğrulama:** [NextAuth.js](https://next-auth.js.org/)
