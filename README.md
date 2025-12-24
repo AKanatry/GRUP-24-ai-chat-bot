@@ -8,26 +8,30 @@
 
 Bu proje, modern web teknolojileri ve büyük dil modelleri (LLM) kullanılarak geliştirilmiş, gerçek zamanlı bir sohbet uygulamasıdır. Kullanıcıların yapay zeka ile akıcı bir şekilde sohbet etmesini, geçmiş konuşmalarını kaydetmesini ve yönetmesini sağlar.
 
+---
+
 ## 🚀 Özellikler
 
-* **Gerçek Zamanlı Yanıt (Streaming UI):** Yapay zeka yanıtları, kelime kelime ekrana yansıtılır (Vercel AI SDK).
-* **Sohbet Geçmişi:** Tüm konuşmalar veritabanında saklanır ve sol menüden erişilebilir.
-* **Güvenli Oturum Açma:** NextAuth.js ile güvenli kimlik doğrulama (Google/Email).
-* **Akıllı Başlıklandırma:** Sohbet içeriğine göre otomatik başlık oluşturma.
-* **Kod & Markdown Desteği:** Kod blokları renklendirilir ve matematiksel ifadeler desteklenir.
-* **Responsive Tasarım:** Mobil ve masaüstü cihazlarla tam uyumlu arayüz.
+- **Gerçek Zamanlı Yanıt (Streaming UI):** Yapay zeka yanıtları kelime kelime ekrana yansıtılır (Vercel AI SDK).
+- **Sohbet Geçmişi:** Tüm konuşmalar veritabanında saklanır ve sol menüden erişilebilir.
+- **Güvenli Oturum Açma:** NextAuth.js ile güvenli kimlik doğrulama (Google / Email).
+- **Akıllı Başlıklandırma:** Sohbet içeriğine göre otomatik başlık oluşturma.
+- **Kod & Markdown Desteği:** Kod blokları renklendirilir ve matematiksel ifadeler desteklenir.
+- **Responsive Tasarım:** Mobil ve masaüstü cihazlarla tam uyumlu arayüz.
+
+---
 
 ## 🛠️ Kullanılan Teknolojiler (Tech Stack)
 
-* **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
-* **Dil:** [TypeScript](https://www.typescriptlang.org/)
-* **Yapay Zeka:** [Vercel AI SDK](https://sdk.vercel.ai/docs) (OpenAI / Anthropic Provider)
-* **Veritabanı:** [PostgreSQL](https://www.postgresql.org/)
-* **ORM:** [Prisma](https://www.prisma.io/)
-* **Stil:** [Tailwind CSS](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/)
-* **Kimlik Doğrulama:** [NextAuth.js](https://next-auth.js.org/)
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Dil:** [TypeScript](https://www.typescriptlang.org/)
+- **Yapay Zeka:** [Vercel AI SDK](https://sdk.vercel.ai/docs) (OpenAI / Anthropic Provider)
+- **Veritabanı:** [PostgreSQL](https://www.postgresql.org/)
+- **ORM:** [Prisma](https://www.prisma.io/)
+- **Stil:** [Tailwind CSS](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/)
+- **Kimlik Doğrulama:** [NextAuth.js](https://next-auth.js.org/)
 
-
+---
 
 ## 📂 Proje Yapısı
 
@@ -41,13 +45,3 @@ AI_ChatBot/
 ├── prisma/              # Veritabanı şeması (schema.prisma)
 ├── public/              # Statik dosyalar
 └── .env                 # Ortam değişkenleri (Gizli)
-
-### 📦 2. Bağımlılıkları Yükleyin
-
-Projenin çalışması için gerekli olan paketleri indirmek için terminalde şu komutu çalıştırın:
-
-```bash
-npm install
-
-
-
