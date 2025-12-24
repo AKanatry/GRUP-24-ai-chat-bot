@@ -42,6 +42,12 @@ AI_ChatBot/
 ├── public/              # Statik dosyalar
 └── .env                 # Ortam değişkenleri (Gizli)
 
+### 📦 2. Bağımlılıkları Yükleyin
+
+Projenin çalışması için gerekli olan paketleri indirmek için terminalde şu komutu çalıştırın:
+
+```bash
+npm install
 
 
 
