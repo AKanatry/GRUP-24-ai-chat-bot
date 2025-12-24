@@ -45,3 +45,5 @@ AI_ChatBot/
 ├── prisma/              # Veritabanı şeması (schema.prisma)
 ├── public/              # Statik dosyalar
 └── .env                 # Ortam değişkenleri (Gizli)
+
+📦 Kurulum & Çalıştırma
