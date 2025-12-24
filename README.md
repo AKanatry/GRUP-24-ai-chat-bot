@@ -41,33 +41,26 @@ AI_ChatBot/
 └── .env                 # Ortam değişkenleri (Gizli)
 
 
-### 2. Bağımlılıkları Yükleyin
+
+
+### 📦 2. Bağımlılıkları Yükleyin
+Projenin çalışması için gerekli olan paketleri indirmek için terminalde şu komutu çalıştırın:
+
 ```bash
 npm install
 
 
-### 3. Çevresel Değişkenleri (.env) Ayarlayın
-Ana dizinde `.env` adında bir dosya oluşturun ve aşağıdaki anahtarları kendi bilgilerinizle doldurun:
 
-```env
-# Veritabanı Bağlantısı (PostgreSQL)
+
+# 🗄️ Veritabanı Bağlantısı (PostgreSQL)
 DATABASE_URL="postgresql://kullanici:sifre@localhost:5432/mydb"
 
-# Yapay Zeka API Anahtarı (Google Gemini)
-GOOGLE_GENERATIVE_AI_API_KEY="AIzaSy..."
+# 🤖 Yapay Zeka API Anahtarı (Google Gemini)
+GOOGLE_GENERATIVE_AI_API_KEY="AIzaSy_SENIN_API_ANAHTARIN..."
 
-# NextAuth Ayarları (Giriş işlemleri için)
+# 🔐 NextAuth Ayarları (Giriş Güvenliği)
+# Terminalde `openssl rand -base64 32` komutu ile random bir key üretebilirsiniz.
 NEXTAUTH_SECRET="gizli-random-anahtar"
 NEXTAUTH_URL="http://localhost:3000"
 
-### 4. Veritabanını Hazırlayın (Prisma)
-Veritabanı şemasını senkronize etmek için:
 
-```bash
-npx prisma db push
-
-### 5. Uygulamayı Başlatın
-Geliştirme sunucusunu başlatmak için:
-
-```bash
-npm run dev
