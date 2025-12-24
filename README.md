@@ -33,7 +33,7 @@ Bu proje, modern web teknolojileri ve büyük dil modelleri (LLM) kullanılarak 
 
 ---
 
-## 📂 Proje Yapısı
+### 📂 Proje Yapısı
 
 ```text
 AI_ChatBot/
@@ -44,4 +44,65 @@ AI_ChatBot/
 ├── lib/                 # Yardımcı fonksiyonlar (Prisma client, Utils)
 ├── prisma/              # Veritabanı şeması (schema.prisma)
 ├── public/              # Statik dosyalar
-└── .env                 # Ortam değişkenleri (Gizli)
+└── .env                 # Ortam değişkenleri (Gizli) 
+```
+## 🛠️ Kurulum ve Çalıştırma Kılavuzu
+
+Bu proje, **Next.js**, **Prisma** ve **Vercel AI SDK** kullanılarak geliştirilmiştir. Projeyi yerel ortamınızda sorunsuz çalıştırmak için aşağıdaki adımları sırasıyla takip edin.
+
+## 📋 Ön Koşullar (Prerequisites)
+
+Başlamadan önce bilgisayarınızda şunların kurulu olduğundan emin olun:
+* **Node.js** (Sürüm 18 veya üzeri)
+* **npm** (Node.js ile birlikte gelir)
+* **Git**
+
+---
+
+## 🚀 Adım Adım Kurulum
+
+### 1. Projeyi Bilgisayarınıza İndirin
+Terminali açın ve projeyi klonlayın:
+
+```bash
+git clone https://github.com/AKanatry/ai-chat-bot.git
+cd ai-chat-bot
+```
+### 📦 2. Bağımlılıkları Yükleyin
+Projenin çalışması için gerekli olan paketleri indirmek için terminalde şu komutu çalıştırın:
+
+```bash
+npm install
+```
+🔑 3. Çevresel Değişkenleri (.env) Ayarlayın  
+Projenin ana dizininde .env adında yeni bir dosya oluşturun. Aşağıdaki şablonu kopyalayıp kendi bilgilerinizle 
+doldurun:
+
+🗄️ Veritabanı Bağlantısı (PostgreSQL)   
+```
+DATABASE_URL="postgresql://kullanici:sifre@localhost:5432/mydb"
+```
+
+🤖 Yapay Zeka API Anahtarı (Google Gemini)
+```
+GOOGLE_GENERATIVE_AI_API_KEY="AIzaSy_SENIN_API_ANAHTARIN..."
+```
+
+# 🔐 NextAuth Ayarları (Giriş Güvenliği)
+```
+# Terminalde `openssl rand -base64 32` komutu ile random bir key üretebilirsiniz.
+NEXTAUTH_SECRET="gizli-random-anahtar"
+NEXTAUTH_URL="http://localhost:3000"
+``` 
+
+  
+🔄 4. Veritabanını Hazırlayın (Prisma)  
+Prisma şemasını (Schema) veritabanı ile senkronize etmek ve tabloları oluşturmak için:
+``` 
+npm run dev
+
+```  
+🚀 5. Uygulamayı Başlatın  
+Kurulum tamamlandı! Geliştirme sunucusunu ayağa kaldırmak için:
+```  
+npm run dev
