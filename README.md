@@ -45,4 +45,24 @@ AI_ChatBot/
 
 
 
+### 📦 2. Bağımlılıkları Yükleyin
+Projenin çalışması için gerekli olan paketleri indirmek için terminalde şu komutu çalıştırın:
+
+```bash
+npm install
+
+
+
+
+# 🗄️ Veritabanı Bağlantısı (PostgreSQL)
+DATABASE_URL="postgresql://kullanici:sifre@localhost:5432/mydb"
+
+# 🤖 Yapay Zeka API Anahtarı (Google Gemini)
+GOOGLE_GENERATIVE_AI_API_KEY="AIzaSy_SENIN_API_ANAHTARIN..."
+
+# 🔐 NextAuth Ayarları (Giriş Güvenliği)
+# Terminalde `openssl rand -base64 32` komutu ile random bir key üretebilirsiniz.
+NEXTAUTH_SECRET="gizli-random-anahtar"
+NEXTAUTH_URL="http://localhost:3000"
+
 
