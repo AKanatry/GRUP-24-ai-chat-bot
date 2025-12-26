@@ -90,9 +90,7 @@ GOOGLE_GENERATIVE_AI_API_KEY="AIzaSy_SENIN_API_ANAHTARIN..."
 
 
 ```
-# Terminalde `openssl rand -base64 32` komutu ile random bir key üretebilirsiniz.
-NEXTAUTH_SECRET="gizli-random-anahtar"
-NEXTAUTH_URL="http://localhost:3000"
+
 ``` 
 
   
