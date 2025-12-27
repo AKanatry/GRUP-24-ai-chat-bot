@@ -89,9 +89,7 @@ GOOGLE_GENERATIVE_AI_API_KEY="AIzaSy_SENIN_API_ANAHTARIN..."
 ```
 
 
-```
 
-``` 
 
   
 🔄 4. Veritabanını Hazırlayın (Prisma)  
