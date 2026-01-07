@@ -29,7 +29,7 @@ Bu proje, modern web teknolojileri ve büyük dil modelleri (LLM) kullanılarak 
 - **Veritabanı:** [PostgreSQL](https://www.postgresql.org/)
 - **ORM:** [Prisma](https://www.prisma.io/)
 - **Stil:** [Tailwind CSS](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/)
-- 
+
 ---
 
 ### 📂 Proje Yapısı
